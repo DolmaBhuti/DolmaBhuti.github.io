@@ -4,14 +4,6 @@ Showcasing Excel dashboards I created to analyze sales and HR data. Using PivotT
 
 ---
 
-## Table of Contents
-
-- [Sales Performance Dashboard](#sales-performance-dashboard)
-- [Sales Dashboard](#sales-dashboard)
-- [Headcount Dashboard](#headcount-dashboard)
-
----
-
 <details>
 <summary><strong>Sales Performance Dashboard</strong></summary>
 

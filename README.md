@@ -1,114 +1,134 @@
-# Sales Performance Dashboard
+# Excel Dashboard Portfolio
 
-## Overview
+Showcasing Excel dashboards I created to analyze sales and HR data. Using PivotTables, PivotCharts, Slicers, and advanced functions like GETPIVOTDATA and INDEX/MATCH, I turn raw data into actionable insights.
 
-An Excel dashboard analyzing global sales performance across regions, products, and years.
+---
 
-## Dataset
+## Table of Contents
 
-- Fields: Country, Product Category, Year, Total Sales, Payment Method.
-- Data: Sample sales dataset (fictional).
+- [Sales Performance Dashboard](#sales-performance-dashboard)
+- [Sales Dashboard](#sales-dashboard)
+- [Headcount Dashboard](#headcount-dashboard)
 
-## Key Features
+---
 
-- KPIs:
-  - Total Sales
-  - Top Product
-  - Top Region
-- Interactive Slicers for Year and Country.
-- Sales by Product Category (Bar Chart).
-- Sales Trend by Year (Line Chart).
-- Sales by Country & Category (Stacked Column).
-- Payment Method Distribution (Pie Chart).
+<details>
+<summary><strong>Sales Performance Dashboard</strong></summary>
 
-## Insights
+### Overview
 
-- Brazil is the top-performing region with $102K sales.
-- Toys are the leading product category ($92K).
-- Sales dipped in 2021–2022 but recovered in 2023.
-- Credit Card and Gift Card make up 52% of payments.
+Analyzes global sales performance across regions, products, and years.
 
-## Tools & Skills
+### Dataset
 
-- Excel: PivotTables, PivotCharts, Slicers, GETPIVOTDATA, INDEX/MATCH.
+- **Fields:** Country, Product Category, Year, Total Sales, Payment Method
+- **Data:** Sample sales dataset (fictional)
 
-## Screenshot
+### Key Features
 
-![alt text](./images/sales_performance_dashboard.png)
+- **KPIs:** Total Sales, Top Product, Top Region
+- **Slicers:** Year, Country
+- **Charts:**
+  - Sales by Product Category (Bar Chart)
+  - Sales Trend by Year (Line Chart)
+  - Sales by Country & Category (Stacked Column Chart)
+  - Payment Method Distribution (Pie Chart)
 
-# Sales Dashboard
+### Insights
 
-## Overview
+- Brazil leads with $102K in sales
+- Toys are the top product category at $92K
+- Sales dipped in 2021–2022, rebounded in 2023
+- Credit Card and Gift Card payments account for 52% of transactions
 
-An Excel dashboard that tracks overall sales performance, order value trends, and year-over-year growth.
+### Tools & Skills
 
-## Dataset
+**Excel:** PivotTables, PivotCharts, Slicers, GETPIVOTDATA, INDEX/MATCH
 
-- Fields: Order Date, Customer Name, Region, Product Quantity, Unit Price, Sales Rep, Notes, Total Sales
-- Data: Sample sales dataset (fictional).
+### Screenshot
 
-## Key Features
+![Sales Performance Dashboard Screenshot](./images/sales_performance_dashboard.png)
 
-- KPIs:
-  - Average Order Value
-  - Total Sales
-  - Number of Orders
-  - Top Selling Product
-- Interactive Slicers for Years and Sales Rep
-- YoY Growth % (Bar Chart)
-- Sales by Region (Bar Chart)
-- Sales by Year (Line Chart)
-- Average Order Value Per Year (Clustered Column - Line)
-- Sales by Sales Rep (Bar Chart)
+</details>
 
-## Insights
+---
 
-- East Region is the top-performing region with $870,724.12.
-- Daniel King is the most successful Sales Rep with $980,842.42.
-- Sales dipped in 2023 but recovered in 2024.
-- Printers are the best-selling product with $760,724.78.
+<details>
+<summary><strong>Sales Dashboard</strong></summary>
 
-## Tools & Skills
+### Overview
 
-- Excel: PivotTables, PivotCharts, Slicers, GETPIVOTDATA, INDEX/MATCH.
+Tracks overall sales performance, order value trends, and year-over-year growth.
 
-## Screenshot
+### Dataset
 
-![Sales Dashboard](./images/sales_dashboard.png)
+- **Fields:** Order Date, Customer Name, Region, Product Quantity, Unit Price, Sales Rep, Notes, Total Sales
+- **Data:** Sample sales dataset (fictional)
 
-# Headcount Dashboard
+### Key Features
 
-## Overview
+- **KPIs:** Average Order Value, Total Sales, Number of Orders, Top Selling Product
+- **Slicers:** Year, Sales Rep
+- **Charts:**
+  - Year-over-Year Growth % (Bar Chart)
+  - Sales by Region (Bar Chart)
+  - Sales by Year (Line Chart)
+  - Average Order Value per Year (Clustered Column + Line Chart)
+  - Sales by Sales Rep (Bar Chart)
 
-An Excel dashboard that presents the organizational employee data.
+### Insights
 
-## Dataset
+- East Region leads with $870K in sales
+- Daniel King tops Sales Reps at $981K
+- Sales dipped in 2023, rebounded in 2024
+- Printers are the best-selling product at $761K
 
-- Fields: Employee ID, Department, Name, JobTitle, Gender, Age, Salary, HireDate, Performance Rating
-- Data: Sample HR dataset (fictional).
+### Tools & Skills
 
-## Key Features
+**Excel:** PivotTables, PivotCharts, Slicers, GETPIVOTDATA, INDEX/MATCH
 
-- KPIs:
-  - Total Employees
-  - Average Salary
-  - Average Age
-- Interactive Slicers for HireDate (Year) and Department
-- Hiring Trend by Years (line chart) ✔
-- Number of Employees by Department (bar chart) ✔
-- Average Salary by Department (bar chart) ✔
-- Gender Distribution (pie chart)
+### Screenshot
 
-## Insights
+![Sales Dashboard Screenshot](./images/sales_dashboard.png)
 
-- IT department has the highest average salary at $82K.
-- Sales and HR both have the highest number of employees at 156.
-- Number of hires was the highest in 2017 and has gone down in the years since.
+</details>
 
-## Tools & Skills
+---
 
-- Excel: PivotTables, PivotCharts, Slicers, GETPIVOTDATA, INDEX/MATCH.
+<details>
+<summary><strong>Headcount Dashboard</strong></summary>
 
-## Screenshot
+### Overview
 
-![alt text](./images/headcount_dashboard.png)
+Presents organizational employee data.
+
+### Dataset
+
+- **Fields:** Employee ID, Department, Name, Job Title, Gender, Age, Salary, Hire Date, Performance Rating
+- **Data:** Sample HR dataset (fictional)
+
+### Key Features
+
+- **KPIs:** Total Employees, Average Salary, Average Age
+- **Slicers:** Hire Date (Year), Department
+- **Charts:**
+  - Hiring Trend by Year (Line Chart)
+  - Number of Employees by Department (Bar Chart)
+  - Average Salary by Department (Bar Chart)
+  - Gender Distribution (Pie Chart)
+
+### Insights
+
+- IT department has the highest average salary at $82K
+- Sales and HR have the most employees at 156 each
+- Hiring peaked in 2017 and declined afterward
+
+### Tools & Skills
+
+**Excel:** PivotTables, PivotCharts, Slicers, GETPIVOTDATA, INDEX/MATCH
+
+### Screenshot
+
+![HR Dashboard Screenshot](./images/headcount_dashboard.png)
+
+</details>

@@ -1,8 +1,10 @@
-# Excel Dashboard Portfolio
+# Dashboard Portfolio
 
 Showcasing Excel dashboards I created to analyze sales and HR data. Using PivotTables, PivotCharts, Slicers, and advanced functions like GETPIVOTDATA and INDEX/MATCH, I turn raw data into actionable insights.
 
 ---
+
+## My Excel Dashboards
 
 <details>
 <summary><strong>Sales Performance Dashboard</strong></summary>
@@ -28,14 +30,14 @@ Analyzes global sales performance across regions, products, and years.
 
 ### Insights
 
-- Brazil leads with $102K in sales
-- Toys are the top product category at $92K
+- Brazil leads with **$102K** in sales
+- Toys are the top product category at **$92K**
 - Sales dipped in 2021–2022, rebounded in 2023
-- Credit Card and Gift Card payments account for 52% of transactions
+- Credit Card and Gift Card payments account for **52%** of transactions
 
 ### Tools & Skills
 
-**Excel:** PivotTables, PivotCharts, Slicers, GETPIVOTDATA, INDEX/MATCH
+🟦 **Excel:** PivotTables, PivotCharts, Slicers, GETPIVOTDATA, INDEX/MATCH
 
 ### Screenshot
 
@@ -70,14 +72,14 @@ Tracks overall sales performance, order value trends, and year-over-year growth.
 
 ### Insights
 
-- East Region leads with $870K in sales
-- Daniel King tops Sales Reps at $981K
+- East Region leads with **$870K** in sales
+- Daniel King tops Sales Reps at **$981K**
 - Sales dipped in 2023, rebounded in 2024
-- Printers are the best-selling product at $761K
+- Printers are the best-selling product at **$761K**
 
 ### Tools & Skills
 
-**Excel:** PivotTables, PivotCharts, Slicers, GETPIVOTDATA, INDEX/MATCH
+🟦 **Excel:** PivotTables, PivotCharts, Slicers, GETPIVOTDATA, INDEX/MATCH
 
 ### Screenshot
 
@@ -111,13 +113,13 @@ Presents organizational employee data.
 
 ### Insights
 
-- IT department has the highest average salary at $82K
-- Sales and HR have the most employees at 156 each
+- IT department has the highest average salary at **$82K**
+- Sales and HR have the most employees at **156** each
 - Hiring peaked in 2017 and declined afterward
 
 ### Tools & Skills
 
-**Excel:** PivotTables, PivotCharts, Slicers, GETPIVOTDATA, INDEX/MATCH
+🟦 **Excel:** PivotTables, PivotCharts, Slicers, GETPIVOTDATA, INDEX/MATCH
 
 ### Screenshot
 

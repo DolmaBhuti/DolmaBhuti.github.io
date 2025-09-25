@@ -11,7 +11,10 @@ An Excel dashboard analyzing global sales performance across regions, products, 
 
 ## Key Features
 
-- KPIs: Total Sales, Top Product, Top Region.
+- KPIs:
+  - Total Sales
+  - Top Product
+  - Top Region
 - Interactive Slicers for Year and Country.
 - Sales by Product Category (Bar Chart).
 - Sales Trend by Year (Line Chart).
@@ -29,38 +32,83 @@ An Excel dashboard analyzing global sales performance across regions, products, 
 
 - Excel: PivotTables, PivotCharts, Slicers, GETPIVOTDATA, INDEX/MATCH.
 
+## Screenshot
+
+![alt text](./images/sales_performance_dashboard.png)
+
 # Sales Dashboard
 
 ## Overview
 
+An Excel dashboard that tracks overall sales performance, order value trends, and year-over-year growth.
+
 ## Dataset
 
+- Fields: Order Date, Customer Name, Region, Product Quantity, Unit Price, Sales Rep, Notes, Total Sales
 - Data: Sample sales dataset (fictional).
 
 ## Key Features
 
 - KPIs:
+  - Average Order Value
+  - Total Sales
+  - Number of Orders
+  - Top Selling Product
+- Interactive Slicers for Years and Sales Rep
+- YoY Growth % (Bar Chart)
+- Sales by Region (Bar Chart)
+- Sales by Year (Line Chart)
+- Average Order Value Per Year (Clustered Column - Line)
+- Sales by Sales Rep (Bar Chart)
 
 ## Insights
+
+- East Region is the top-performing region with $870,724.12.
+- Daniel King is the most successful Sales Rep with $980,842.42.
+- Sales dipped in 2023 but recovered in 2024.
+- Printers are the best-selling product with $760,724.78.
 
 ## Tools & Skills
 
 - Excel: PivotTables, PivotCharts, Slicers, GETPIVOTDATA, INDEX/MATCH.
 
-# HR Dashboard
+## Screenshot
+
+![Sales Dashboard](./images/sales_dashboard.png)
+
+# Headcount Dashboard
 
 ## Overview
 
+An Excel dashboard that presents the organizational employee data.
+
 ## Dataset
 
-- Data: Sample sales dataset (fictional).
+- Fields: Employee ID, Department, Name, JobTitle, Gender, Age, Salary, HireDate, Performance Rating
+- Data: Sample HR dataset (fictional).
 
 ## Key Features
 
 - KPIs:
+  - Total Employees
+  - Average Salary
+  - Average Age
+- Interactive Slicers for HireDate (Year) and Department
+- Hiring Trend by Years (line chart) ✔
+- Number of Employees by Department (bar chart) ✔
+- Average Salary by Department (bar chart) ✔
+- Gender Distribution (pie chart)
 
 ## Insights
+
+- IT department has the highest average salary at $82K.
+- Sales and HR both have the highest number of employees at 156.
+- Number of hires was the highest in 2017 and has gone down in the years since.
 
 ## Tools & Skills
 
 - Excel: PivotTables, PivotCharts, Slicers, GETPIVOTDATA, INDEX/MATCH.
+
+## Screenshot
+
+![alt text](./images/headcount_dashboard.png)

@@ -4,10 +4,10 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>HR Analytics Dashboard | Dolma Bhuti</title>
+    <title>HR Analytics Dashboard – Portfolio Details | Dolma Bhuti</title>
     <meta
       name="description"
-      content="HR Analytics Dashboard by Dolma Bhuti. An Excel dashboard analyzing headcount, hiring trends, salary distribution, and workforce metrics using PivotTables, PivotCharts, slicers, and GETPIVOTDATA."
+      content="HR Analytics Dashboard by Dolma Bhuti. An Excel dashboard analyzing headcount, hiring trends, salary distribution, and workforce metrics with PivotTables, PivotCharts, and slicers."
     />
     <meta
       name="keywords"
@@ -46,11 +46,8 @@
     <link href="assets/css/main.css" rel="stylesheet" />
 
     <style>
-      /* Helps anchor jumps not hide behind header */
-      #portfolio-details {
-        scroll-margin-top: 100px;
-      }
-      .zoom-hint {
+      /* Nice UX hint for zoomable images */
+      .zoomable img {
         cursor: zoom-in;
       }
     </style>
@@ -117,17 +114,17 @@
           </li>
           <li>
             <a href="index.html#about"
-              ><i class="bi bi-person navicon"></i>About</a
+              ><i class="bi bi-person navicon"></i> About</a
             >
           </li>
           <li>
             <a href="index.html#portfolio"
-              ><i class="bi bi-images navicon"></i>Portfolio</a
+              ><i class="bi bi-images navicon"></i> Portfolio</a
             >
           </li>
           <li>
             <a href="index.html#services"
-              ><i class="bi bi-hdd-stack navicon"></i>Services</a
+              ><i class="bi bi-hdd-stack navicon"></i> Services</a
             >
           </li>
         </ul>
@@ -145,7 +142,7 @@
             <ol>
               <li><a href="index.html">Home</a></li>
               <li><a href="index.html#portfolio">Portfolio</a></li>
-              <li class="current">HR Analytics</li>
+              <li class="current">HR Analytics Dashboard</li>
             </ol>
           </nav>
         </div>
@@ -158,20 +155,21 @@
           <div class="row gy-4">
             <!-- LEFT: Image -->
             <div class="col-lg-8">
-              <div class="portfolio-details-image text-center">
-                <!-- Glightbox zoom -->
+              <div class="portfolio-details-image text-center zoomable">
+                <!-- Click to zoom/fullscreen via Glightbox -->
                 <a
                   href="assets/img/portfolio/headcount_dashboard.png"
                   class="glightbox"
                   data-gallery="hr-gallery"
-                  data-title="HR Analytics Dashboard (Full Screen)"
+                  data-title="HR Analytics Dashboard (Full View)"
                 >
                   <img
                     src="assets/img/portfolio/headcount_dashboard.png"
                     alt="HR Analytics dashboard screenshot (Excel)"
-                    class="img-fluid zoom-hint"
+                    class="img-fluid"
                   />
                 </a>
+
                 <p class="text-muted small mt-2 mb-0">
                   Click the dashboard to view full screen.
                 </p>
@@ -192,18 +190,18 @@
                   </li>
                   <li>
                     <strong>Tools Used</strong>: Excel (PivotTables,
-                    PivotCharts, Slicers, GETPIVOTDATA)
+                    PivotCharts, Slicers, formulas)
                   </li>
                   <li><strong>Project Date</strong>: 2024</li>
                   <li>
-                    <strong>Full Screenshot</strong>:
+                    <strong>Project URL</strong>:
                     <a
                       href="assets/img/portfolio/headcount_dashboard.png"
-                      class="glightbox"
-                      data-gallery="hr-gallery"
-                      data-title="HR Analytics Dashboard (Full Screen)"
-                      >Open in full screen</a
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
+                      View Full Screenshot
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -213,25 +211,23 @@
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
-                <h2>Headcount Dashboard</h2>
+                <h2>Headcount & Workforce Insights</h2>
                 <p>
-                  This Excel dashboard summarizes HR data to help teams
-                  understand workforce composition and trends at a glance.
+                  This Excel dashboard summarizes HR metrics such as headcount,
+                  department distribution, salary trends, and hiring patterns to
+                  support workforce planning and reporting.
                 </p>
 
                 <p class="mb-2"><strong>Key Features:</strong></p>
                 <ul>
-                  <li>Headcount by department with interactive filtering</li>
-                  <li>Hiring trend visualization over time</li>
-                  <li>Average salary and demographic breakdowns</li>
-                  <li>Slicers to explore by year and department</li>
+                  <li>Headcount breakdown by department/team</li>
+                  <li>Hiring trend analysis over time</li>
+                  <li>Salary distribution and averages</li>
+                  <li>Demographic splits (e.g., gender)</li>
+                  <li>Interactive filtering using slicers</li>
                 </ul>
               </div>
             </div>
-          </div>
-
-          <div class="mt-4">
-            <a href="index.html#portfolio">← Back to Portfolio</a>
           </div>
         </div>
       </section>
@@ -242,8 +238,9 @@
       <div class="container">
         <div class="copyright text-center">
           <p>
-            © <strong class="px-1 sitename">Dolma Bhuti</strong> All Rights
-            Reserved
+            © <span>Copyright</span>
+            <strong class="px-1 sitename">Dolma Bhuti</strong>
+            <span>All Rights Reserved</span>
           </p>
         </div>
         <div class="credits">
@@ -266,7 +263,7 @@
     <!-- Preloader -->
     <div id="preloader"></div>
 
-    <!-- Vendor JS Files -->
+    <!-- Vendor JS Files (IMPORTANT: needed for AOS + Glightbox to work) -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/php-email-form/validate.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
@@ -278,14 +275,7 @@
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-    <!-- Main JS File -->
+    <!-- Main JS File (this initializes AOS, glightbox, etc.) -->
     <script src="assets/js/main.js"></script>
-
-    <!-- Safety init (in case main.js doesn't auto-init glightbox on this page) -->
-    <script>
-      if (typeof GLightbox === "function") {
-        GLightbox({ selector: ".glightbox" });
-      }
-    </script>
   </body>
 </html>

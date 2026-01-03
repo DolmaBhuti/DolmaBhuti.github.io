@@ -45,21 +45,13 @@
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet" />
 
-    <!-- Small page-specific polish (optional, safe) -->
+    <!-- Page-specific polish -->
     <style>
       /* Prevent anchor jump from hiding behind header spacing */
       #case-study {
         scroll-margin-top: 100px;
       }
     </style>
-
-    <!-- =======================================================
-  * Template Name: iPortfolio
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Updated: Jun 29 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
   </head>
 
   <body class="portfolio-details-page">
@@ -78,8 +70,6 @@
         href="index.html"
         class="logo d-flex align-items-center justify-content-center"
       >
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1 class="sitename">Dolma Bhuti</h1>
       </a>
 
@@ -87,7 +77,7 @@
         <a
           href="https://www.linkedin.com/in/dolma-bhuti-12225b9b/"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
           class="linkedin"
         >
           <i class="bi bi-linkedin"></i>
@@ -95,16 +85,15 @@
         <a
           href="https://github.com/DolmaBhuti"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
           class="github"
         >
           <i class="bi bi-github"></i>
         </a>
-        <!-- Optional for freelancing -->
         <a
           href="https://www.fiverr.com/s/akj2D6N"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
           class="fiverr"
         >
           <i class="bi bi-briefcase"></i>
@@ -112,7 +101,7 @@
         <a
           href="https://www.upwork.com/freelancers/~011e83bfd0001afcca?mp_source=share"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
           class="upwork"
         >
           <i class="bi bi-people"></i>
@@ -164,48 +153,89 @@
       <section id="portfolio-details" class="portfolio-details section">
         <div class="container" data-aos="fade-up" data-aos-delay="100">
           <div class="row gy-4">
+            <!-- LEFT: Images -->
             <div class="col-lg-8">
+              <!-- Main image (click to zoom) -->
               <div class="portfolio-details-image text-center mb-4">
-                <img
-                  src="assets/img/crm-sales-pipeline/crm-dashboard.png"
-                  alt="Google Sheets CRM dashboard"
-                  class="img-fluid"
-                />
+                <a
+                  href="assets/img/crm-sales-pipeline/crm-dashboard.png"
+                  class="glightbox"
+                  data-gallery="crm-gallery"
+                >
+                  <img
+                    src="assets/img/crm-sales-pipeline/crm-dashboard.png"
+                    alt="Google Sheets CRM dashboard"
+                    class="img-fluid"
+                    style="cursor: zoom-in"
+                  />
+                </a>
               </div>
 
-              <!-- Additional screenshots grid -->
+              <!-- Additional screenshots grid (click to zoom) -->
               <div class="row g-3">
                 <div class="col-md-6">
-                  <img
-                    class="img-fluid"
-                    src="assets/img/crm-sales-pipeline/crm-salespipeline.png"
-                    alt="Google Sheets CRM sales pipeline table"
-                  />
+                  <a
+                    href="assets/img/crm-sales-pipeline/crm-salespipeline.png"
+                    class="glightbox"
+                    data-gallery="crm-gallery"
+                  >
+                    <img
+                      class="img-fluid"
+                      src="assets/img/crm-sales-pipeline/crm-salespipeline.png"
+                      alt="Google Sheets CRM sales pipeline table"
+                      style="cursor: zoom-in"
+                    />
+                  </a>
                 </div>
+
                 <div class="col-md-6">
-                  <img
-                    class="img-fluid"
-                    src="assets/img/crm-sales-pipeline/crm-customers.png"
-                    alt="Google Sheets CRM customers table"
-                  />
+                  <a
+                    href="assets/img/crm-sales-pipeline/crm-customers.png"
+                    class="glightbox"
+                    data-gallery="crm-gallery"
+                  >
+                    <img
+                      class="img-fluid"
+                      src="assets/img/crm-sales-pipeline/crm-customers.png"
+                      alt="Google Sheets CRM customers table"
+                      style="cursor: zoom-in"
+                    />
+                  </a>
                 </div>
+
                 <div class="col-md-6">
-                  <img
-                    class="img-fluid"
-                    src="assets/img/crm-sales-pipeline/crm-activity_timeline.png"
-                    alt="Google Sheets CRM activity timeline"
-                  />
+                  <a
+                    href="assets/img/crm-sales-pipeline/crm-activity_timeline.png"
+                    class="glightbox"
+                    data-gallery="crm-gallery"
+                  >
+                    <img
+                      class="img-fluid"
+                      src="assets/img/crm-sales-pipeline/crm-activity_timeline.png"
+                      alt="Google Sheets CRM activity timeline"
+                      style="cursor: zoom-in"
+                    />
+                  </a>
                 </div>
+
                 <div class="col-md-6">
-                  <img
-                    class="img-fluid"
-                    src="assets/img/crm-sales-pipeline/crm-setup-lists.png"
-                    alt="Google Sheets CRM reference lists and dropdown setup"
-                  />
+                  <a
+                    href="assets/img/crm-sales-pipeline/crm-setup-lists.png"
+                    class="glightbox"
+                    data-gallery="crm-gallery"
+                  >
+                    <img
+                      class="img-fluid"
+                      src="assets/img/crm-sales-pipeline/crm-setup-lists.png"
+                      alt="Google Sheets CRM reference lists and dropdown setup"
+                      style="cursor: zoom-in"
+                    />
+                  </a>
                 </div>
               </div>
             </div>
 
+            <!-- RIGHT: Info + Summary -->
             <div class="col-lg-4">
               <div
                 class="portfolio-info"
@@ -225,7 +255,7 @@
                     <a
                       href="https://docs.google.com/spreadsheets/d/1aqYFwOjovnKIPd1yP8T5PGYEwuOs0Ctzx_umjM4ujyM/edit?usp=sharing"
                       target="_blank"
-                      rel="noopener"
+                      rel="noopener noreferrer"
                     >
                       View Google Sheets CRM
                     </a>
@@ -235,9 +265,9 @@
                     <a
                       href="https://github.com/DolmaBhuti/google_sheets_crm"
                       target="_blank"
-                      rel="noopener"
+                      rel="noopener noreferrer"
                     >
-                      View files & documentation
+                      View files &amp; documentation
                     </a>
                   </li>
                 </ul>
@@ -265,8 +295,14 @@
                   <li>Dashboard KPIs (funnel, trends, win/loss)</li>
                 </ul>
 
+                <!-- Anchor CTA -->
                 <p class="mb-0">
-                  <a href="#case-study">Read the full case study ↓</a>
+                  <a
+                    href="#case-study"
+                    class="btn btn-outline-light btn-sm mt-2"
+                  >
+                    Read the full case study ↓
+                  </a>
                 </p>
               </div>
             </div>
@@ -409,7 +445,7 @@
         <div class="copyright text-center">
           <p>
             © <span>Copyright</span>
-            <strong class="px-1 sitename">iPortfolio</strong>
+            <strong class="px-1 sitename">Dolma Bhuti</strong>
             <span>All Rights Reserved</span>
           </p>
         </div>
@@ -447,5 +483,13 @@
 
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
+
+    <!-- Ensure glightbox is initialized (safe even if main.js already does it) -->
+    <script>
+      if (typeof GLightbox !== "undefined") {
+        GLightbox({ selector: ".glightbox" });
+      }
+    </script>
   </body>
 </html>
+```

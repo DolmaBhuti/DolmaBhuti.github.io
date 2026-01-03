@@ -3,9 +3,16 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Portfolio Details</title>
-    <meta content="" name="description" />
-    <meta content="" name="keywords" />
+
+    <title>Sales Performance Dashboard – Portfolio Details | Dolma Bhuti</title>
+    <meta
+      name="description"
+      content="Sales Performance Dashboard by Dolma Bhuti. An Excel dashboard analyzing sales by region, product, and year using PivotTables, PivotCharts, slicers, and KPI reporting."
+    />
+    <meta
+      name="keywords"
+      content="Sales performance dashboard, Excel dashboard, PivotTables, PivotCharts, slicers, KPIs, reporting, data visualization"
+    />
 
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon" />
@@ -54,7 +61,7 @@
       <div class="profile-img">
         <img
           src="assets/img/my-profile-img.jpg"
-          alt=""
+          alt="Profile photo of Dolma Bhuti"
           class="img-fluid rounded-circle"
         />
       </div>
@@ -63,8 +70,6 @@
         href="index.html"
         class="logo d-flex align-items-center justify-content-center"
       >
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1 class="sitename">Dolma Bhuti</h1>
       </a>
 
@@ -72,17 +77,23 @@
         <a
           href="https://www.linkedin.com/in/dolma-bhuti-12225b9b/"
           target="_blank"
+          rel="noopener noreferrer"
           class="linkedin"
         >
           <i class="bi bi-linkedin"></i>
         </a>
-        <a href="https://github.com/DolmaBhuti" target="_blank" class="github">
+        <a
+          href="https://github.com/DolmaBhuti"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="github"
+        >
           <i class="bi bi-github"></i>
         </a>
-        <!-- Optional for freelancing -->
         <a
           href="https://www.fiverr.com/s/akj2D6N"
           target="_blank"
+          rel="noopener noreferrer"
           class="fiverr"
         >
           <i class="bi bi-briefcase"></i>
@@ -90,6 +101,7 @@
         <a
           href="https://www.upwork.com/freelancers/~011e83bfd0001afcca?mp_source=share"
           target="_blank"
+          rel="noopener noreferrer"
           class="upwork"
         >
           <i class="bi bi-people"></i>
@@ -106,11 +118,6 @@
               ><i class="bi bi-person navicon"></i> About</a
             >
           </li>
-          <!-- <li>
-            <a href="#resume"
-              ><i class="bi bi-file-earmark-text navicon"></i> Resume</a
-            >
-          </li> -->
           <li>
             <a href="index.html#portfolio"
               ><i class="bi bi-images navicon"></i> Portfolio</a
@@ -121,36 +128,6 @@
               ><i class="bi bi-hdd-stack navicon"></i> Services</a
             >
           </li>
-          <!-- <li class="dropdown">
-            <a href="#"
-              ><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span>
-              <i class="bi bi-chevron-down toggle-dropdown"></i
-            ></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown">
-                <a href="#"
-                  ><span>Deep Dropdown</span>
-                  <i class="bi bi-chevron-down toggle-dropdown"></i
-                ></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li> -->
-          <!-- <li>
-            <a href="#contact"
-              ><i class="bi bi-envelope navicon"></i> Contact</a
-            >
-          </li> -->
         </ul>
       </nav>
     </header>
@@ -161,11 +138,12 @@
         <div
           class="container d-lg-flex justify-content-between align-items-center"
         >
-          <h1 class="mb-2 mb-lg-0">Portfolio Details</h1>
+          <h1 class="mb-2 mb-lg-0">Sales Performance Dashboard</h1>
           <nav class="breadcrumbs">
             <ol>
               <li><a href="index.html">Home</a></li>
-              <li class="current">Portfolio Details</li>
+              <li><a href="index.html#portfolio">Portfolio</a></li>
+              <li class="current">Sales Performance Dashboard</li>
             </ol>
           </nav>
         </div>
@@ -176,16 +154,31 @@
       <section id="portfolio-details" class="portfolio-details section">
         <div class="container" data-aos="fade-up" data-aos-delay="100">
           <div class="row gy-4">
+            <!-- LEFT: Image -->
             <div class="col-lg-8">
               <div class="portfolio-details-image text-center">
-                <img
-                  src="assets/img/portfolio/sales_performance_dashboard.png"
-                  alt="Sales Performance Dashboard Screenshot"
-                  class="img-fluid"
-                />
+                <!-- Click to zoom/fullscreen via Glightbox -->
+                <a
+                  href="assets/img/portfolio/sales_performance_dashboard.png"
+                  class="glightbox"
+                  data-gallery="sales-performance-gallery"
+                  data-title="Sales Performance Dashboard (Full View)"
+                >
+                  <img
+                    src="assets/img/portfolio/sales_performance_dashboard.png"
+                    alt="Sales Performance Dashboard Screenshot"
+                    class="img-fluid"
+                    style="cursor: zoom-in"
+                  />
+                </a>
+
+                <p class="text-muted small mt-2 mb-0">
+                  Click the dashboard to view full screen.
+                </p>
               </div>
             </div>
 
+            <!-- RIGHT: Info + Description -->
             <div class="col-lg-4">
               <div
                 class="portfolio-info"
@@ -201,12 +194,14 @@
                   </li>
                   <li><strong>Project Date</strong>: 2025</li>
                   <li>
-                    <strong>Project URL</strong>:
+                    <strong>Full Screenshot</strong>:
                     <a
                       href="assets/img/portfolio/sales_performance_dashboard.png"
-                      target="_blank"
+                      class="glightbox"
+                      data-gallery="sales-performance-gallery"
+                      data-title="Sales Performance Dashboard (Full View)"
                     >
-                      View Full Dashboard Screenshot
+                      Open in full screen
                     </a>
                   </li>
                 </ul>
@@ -218,23 +213,20 @@
                 data-aos-delay="300"
               >
                 <h2>Sales Performance Dashboard</h2>
+
                 <p>
-                  Overview: This dashboard analyzes sales data across regions,
-                  products, and years to uncover trends and identify
-                  top-performing areas. It enables stakeholders to monitor
-                  performance, compare year-over-year results, and track product
-                  category contributions.
+                  Built an Excel dashboard to monitor performance across
+                  regions, products, and time. It helps stakeholders compare
+                  year-over-year results and identify top-performing segments at
+                  a glance.
                 </p>
-                <p><strong>Key Features:</strong></p>
+
+                <p class="mb-2"><strong>Key Features:</strong></p>
                 <ul>
-                  <li>
-                    Interactive PivotTables and PivotCharts for dynamic analysis
-                  </li>
-                  <li>
-                    Slicers for quick filtering by region, year, and product
-                  </li>
-                  <li>Automated KPIs using GETPIVOTDATA functions</li>
-                  <li>Trend visualization highlighting growth patterns</li>
+                  <li>Interactive PivotTables and PivotCharts for analysis</li>
+                  <li>Slicers to filter by region, year, and product</li>
+                  <li>Automated KPIs for quick reporting</li>
+                  <li>Trend visuals highlighting growth patterns</li>
                 </ul>
               </div>
             </div>
@@ -254,10 +246,6 @@
           </p>
         </div>
         <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
           Designed by
           <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by
           <a href="https://themewagon.com">ThemeWagon</a>
@@ -270,8 +258,9 @@
       href="#"
       id="scroll-top"
       class="scroll-top d-flex align-items-center justify-content-center"
-      ><i class="bi bi-arrow-up-short"></i
-    ></a>
+    >
+      <i class="bi bi-arrow-up-short"></i>
+    </a>
 
     <!-- Preloader -->
     <div id="preloader"></div>
@@ -290,5 +279,12 @@
 
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
+
+    <!-- Fallback init: only runs if your template didn't already init glightbox -->
+    <script>
+      if (typeof GLightbox !== "undefined") {
+        GLightbox({ selector: ".glightbox" });
+      }
+    </script>
   </body>
 </html>

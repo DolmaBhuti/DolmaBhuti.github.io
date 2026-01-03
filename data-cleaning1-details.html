@@ -5,11 +5,11 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Portfolio Details - Data Cleaning</title>
     <meta
-      content="Data cleaning and formatting project for business data"
+      content="Data cleaning and formatting project by Dolma Bhuti. Before-and-after data cleanup using Excel and Power Query."
       name="description"
     />
     <meta
-      content="data cleaning, Excel, data formatting, portfolio"
+      content="data cleaning, Excel, Power Query, data preparation, reporting, portfolio"
       name="keywords"
     />
 
@@ -68,21 +68,28 @@
         <a
           href="https://www.linkedin.com/in/dolma-bhuti-12225b9b/"
           target="_blank"
+          rel="noopener noreferrer"
           class="linkedin"
           ><i class="bi bi-linkedin"></i
         ></a>
-        <a href="https://github.com/DolmaBhuti" target="_blank" class="github"
+        <a
+          href="https://github.com/DolmaBhuti"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="github"
           ><i class="bi bi-github"></i
         ></a>
         <a
           href="https://www.fiverr.com/s/akj2D6N"
           target="_blank"
+          rel="noopener noreferrer"
           class="fiverr"
           ><i class="bi bi-briefcase"></i
         ></a>
         <a
           href="https://www.upwork.com/freelancers/~011e83bfd0001afcca?mp_source=share"
           target="_blank"
+          rel="noopener noreferrer"
           class="upwork"
           ><i class="bi bi-people"></i
         ></a>
@@ -118,11 +125,11 @@
         <div
           class="container d-lg-flex justify-content-between align-items-center"
         >
-          <h1 class="mb-2 mb-lg-0">Portfolio Details</h1>
+          <h1 class="mb-2 mb-lg-0">Data Cleaning &amp; Preparation</h1>
           <nav class="breadcrumbs">
             <ol>
               <li><a href="index.html">Home</a></li>
-              <li class="current">Portfolio Details</li>
+              <li class="current">Data Cleaning</li>
             </ol>
           </nav>
         </div>
@@ -133,30 +140,57 @@
       <section id="portfolio-details" class="portfolio-details section">
         <div class="container" data-aos="fade-up" data-aos-delay="100">
           <div class="row gy-4">
+            <!-- LEFT: Before/After Images -->
             <div class="col-lg-8 text-center">
               <div class="portfolio-details-image mb-3">
-                <h5>Before Cleaning</h5>
-                <img
-                  src="assets/img/portfolio/data_cleaning1_before.png"
-                  alt="Raw uncleaned data screenshot"
-                  class="img-fluid rounded shadow-sm mb-4"
-                />
+                <h5 class="mb-2">Before Cleaning</h5>
+
+                <!-- Click to zoom -->
+                <a
+                  href="assets/img/portfolio/data_cleaning1_before.png"
+                  class="glightbox"
+                  data-gallery="cleaning-gallery"
+                  data-title="Before Cleaning"
+                >
+                  <img
+                    src="assets/img/portfolio/data_cleaning1_before.png"
+                    alt="Raw uncleaned data screenshot"
+                    class="img-fluid rounded shadow-sm mb-4"
+                    style="cursor: zoom-in"
+                  />
+                </a>
               </div>
+
               <hr
                 class="my-4"
                 style="border-top: 2px solid #f0f0f0; width: 80%; margin: auto"
               />
 
               <div class="portfolio-details-image">
-                <h5>After Cleaning</h5>
-                <img
-                  src="assets/img/portfolio/data_cleaning1_after.png"
-                  alt="Cleaned and standardized data screenshot"
-                  class="img-fluid rounded shadow-sm"
-                />
+                <h5 class="mb-2">After Cleaning</h5>
+
+                <!-- Click to zoom -->
+                <a
+                  href="assets/img/portfolio/data_cleaning1_after.png"
+                  class="glightbox"
+                  data-gallery="cleaning-gallery"
+                  data-title="After Cleaning"
+                >
+                  <img
+                    src="assets/img/portfolio/data_cleaning1_after.png"
+                    alt="Cleaned and standardized data screenshot"
+                    class="img-fluid rounded shadow-sm"
+                    style="cursor: zoom-in"
+                  />
+                </a>
               </div>
+
+              <p class="text-muted small mt-3 mb-0">
+                Tip: Click any image to view full-screen.
+              </p>
             </div>
 
+            <!-- RIGHT: Info + Description -->
             <div class="col-lg-4">
               <div
                 class="portfolio-info"
@@ -166,17 +200,20 @@
                 <h3>Project Information</h3>
                 <ul>
                   <li>
-                    <strong>Category</strong>: Data Cleaning & Preparation
+                    <strong>Category</strong>: Data Cleaning &amp; Preparation
                   </li>
                   <li><strong>Tools Used</strong>: Excel, Power Query</li>
                   <li><strong>Project Date</strong>: 2024</li>
                   <li>
-                    <strong>Project URL</strong>:
+                    <strong>Full Screenshot</strong>:
                     <a
                       href="assets/img/portfolio/data_cleaning1_after.png"
-                      target="_blank"
-                      >View Full Screenshot</a
+                      class="glightbox"
+                      data-gallery="cleaning-gallery"
+                      data-title="After Cleaning (Full Screenshot)"
                     >
+                      Open full-screen
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -186,7 +223,7 @@
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
-                <h2>Data Cleaning & Preparation</h2>
+                <h2>Data Cleaning &amp; Preparation</h2>
                 <p>
                   Cleaned and prepared a real-world dataset containing
                   inconsistent formatting, missing values, and duplicates to
@@ -199,21 +236,17 @@
                     String standardization (Country, Gender, Residence,
                     Education Level)
                   </li>
-                  <li>
-                    Null value imputation (mean filling for missing scores)
-                  </li>
+                  <li>Null value handling (filled missing scores)</li>
                   <li>Type correction for numeric and text columns</li>
                   <li>Duplicate removal and data validation</li>
-                  <li>
-                    Visual verification using filters and conditional formatting
-                  </li>
+                  <li>Verification using filters and conditional formatting</li>
                 </ul>
 
                 <p><strong>Outcome:</strong></p>
-                <p>
-                  Produced a fully cleaned, structured dataset ready for
-                  analysis and visualization. Demonstrated practical Excel and
-                  Power Query skills essential for data analyst roles.
+                <p class="mb-0">
+                  Produced a clean, structured dataset ready for analysis and
+                  visualization—demonstrating Excel + Power Query skills used in
+                  data analyst and reporting roles.
                 </p>
               </div>
             </div>
@@ -228,7 +261,7 @@
         <div class="copyright text-center">
           <p>
             © <span>Copyright</span>
-            <strong class="px-1 sitename">iPortfolio</strong>
+            <strong class="px-1 sitename">Dolma Bhuti</strong>
             <span>All Rights Reserved</span>
           </p>
         </div>
@@ -265,5 +298,12 @@
 
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
+
+    <!-- Ensure glightbox is initialized (safe even if main.js already does it) -->
+    <script>
+      if (typeof GLightbox !== "undefined") {
+        GLightbox({ selector: ".glightbox" });
+      }
+    </script>
   </body>
 </html>
